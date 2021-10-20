@@ -1,0 +1,56 @@
+
+/************************************************************** TAG **************************************************************/
+
+nav {
+  height: 10vh;
+}
+
+select,
+button {
+  border-radius: 5px;
+  background-color: rgb(243, 240, 240);
+  border: 1px solid rgb(173, 172, 172);
+}
+
+select {
+  width: 130px;
+}
+
+button {
+  width: 65px;
+  font-weight: bold;
+}
+
+main {
+  background-color: #7FFFD4;
+  height: 85vh;
+  position: relative;
+}
+
+footer {
+  height: 5vh;
+}
+
+/************************************************************** CLASSI **************************************************************/
+
+.campo_container {
+  height: 90%;
+  aspect-ratio: 1 / 1;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/******************************* UTILITIES *******************************/
+
+.box {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
